@@ -1,4 +1,4 @@
-//¢ÙµÚÒ»´ÎĞ´µÄ¼ÆËã×Ö·û´®×îºóÒ»¸öµ¥´ÊµÄ³¤¶È£¬µ«ÊÇÖ»ÄÜ¼ÆËãÄÚ¶¨µÄ×Ö·û´®£¬×Ô¼ºÊäÈëµÄ¾Í²»¿ÉÒÔ
+//â‘ ç¬¬ä¸€æ¬¡å†™çš„è®¡ç®—å­—ç¬¦ä¸²æœ€åä¸€ä¸ªå•è¯çš„é•¿åº¦ï¼Œä½†æ˜¯åªèƒ½è®¡ç®—å†…å®šçš„å­—ç¬¦ä¸²ï¼Œè‡ªå·±è¾“å…¥çš„å°±ä¸å¯ä»¥
 
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
@@ -20,7 +20,7 @@
 //}
 
 
-//¢ÚforÑ­»·Óï¾äÊµÏÖËùÊäÊı×ÖµÄ½×³Ë¼ÆËã
+//â‘¡forå¾ªç¯è¯­å¥å®ç°æ‰€è¾“æ•°å­—çš„é˜¶ä¹˜è®¡ç®—
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include <string.h>
@@ -38,7 +38,7 @@ int main()
 	return 0;
 }
 
-//¢ÛwhileÑ­»·Óï¾äÊµÏÖËùÊäÊı×ÖµÄ½×³Ë¼ÆËã
+//â‘¢whileå¾ªç¯è¯­å¥å®ç°æ‰€è¾“æ•°å­—çš„é˜¶ä¹˜è®¡ç®—
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
 //#include <string.h>
@@ -60,7 +60,7 @@ int main()
 
 
 
-//¢Üdo whileÑ­»·Óï¾äÊµÏÖËùÊäÊı×ÖµÄ½×³Ë¼ÆËã
+//â‘£do whileå¾ªç¯è¯­å¥å®ç°æ‰€è¾“æ•°å­—çš„é˜¶ä¹˜è®¡ç®—
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
 //#include <string.h>
@@ -81,7 +81,7 @@ int main()
 //	return 0;
 //}
 
-//¢İforµÄÇ¶Ì×Ñ­»·Óï¾äÊµÏÖ1£¡+2£¡+3£¡+¡¤¡¤¡¤+n!
+//â‘¤forçš„åµŒå¥—å¾ªç¯è¯­å¥å®ç°1ï¼+2ï¼+3ï¼+Â·Â·Â·+n!
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
 //#include <string.h>
@@ -92,21 +92,28 @@ int main()
 //	int num;
 //	int result1 = 1;
 //	int result2 = 0;
-//	printf("ÇëÊäÈëÄãÏëÒª¼ÆËãµÄÊı×Ö£º");
+//	printf("è¯·è¾“å…¥ä½ æƒ³è¦è®¡ç®—çš„æ•°å­—ï¼š");
 //	scanf("%d",&num);
-//	for (j = 1;j <= num;j++)
-//	{
+//      if(num==0)
+//      {
+//           printf("ç»“æœä¸ºï¼š1");
+//      }
+//      else
+//      {
+//	    for (j = 1;j <= num;j++)
+//	    {
 //		for (result1=1,i = 0;i < j;i++)
 //		{
 //			result1 = result1 * (i+1) ;
 //		}
 //		result2 = result1 + result2;
-//	}
-//	printf("%d",result2);
+//	    }
+//	    printf("ç»“æœä¸ºï¼š%d",result2);
+//      }
 //	return 0;
 //}
 
-//¢ŞwhileµÄÇ¶Ì×Ñ­»·Óï¾äÊµÏÖ1£¡+2£¡+3£¡+¡¤¡¤¡¤+n!
+//â‘¥whileçš„åµŒå¥—å¾ªç¯è¯­å¥å®ç°1ï¼+2ï¼+3ï¼+Â·Â·Â·+n!
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
 //#include <string.h>
@@ -117,7 +124,7 @@ int main()
 //	int num;
 //	int result1 = 1;
 //	int result2 = 0;
-//	printf("ÇëÊäÈëÄãÏëÒª¼ÆËãµÄÊı×Ö£º");
+//	printf("è¯·è¾“å…¥ä½ æƒ³è¦è®¡ç®—çš„æ•°å­—ï¼š");
 //	scanf("%d",&num);
 //	while (j <= num)
 //	{
@@ -135,7 +142,7 @@ int main()
 //}
 
 
-//¢Şdo whileµÄÇ¶Ì×Ñ­»·Óï¾äÊµÏÖ1£¡ + 2£¡ + 3£¡ + ¡¤¡¤¡¤ + n!
+//â‘¥do whileçš„åµŒå¥—å¾ªç¯è¯­å¥å®ç°1ï¼ + 2ï¼ + 3ï¼ + Â·Â·Â· + n!
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
 //#include <string.h>
@@ -146,7 +153,7 @@ int main()
 //	int num;
 //	int result1 = 1;
 //	int result2 = 0;
-//	printf("ÇëÊäÈëÄãÏëÒª¼ÆËãµÄÊı×Ö£º");
+//	printf("è¯·è¾“å…¥ä½ æƒ³è¦è®¡ç®—çš„æ•°å­—ï¼š");
 //	scanf("%d", &num);
 //	do
 //	{
